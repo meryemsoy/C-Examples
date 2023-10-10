@@ -12,7 +12,6 @@ int main() {
 
     while (choose == 1) {
         printf("Can you guess my number?\n");
-        printf("%d",rastgeleSayi);
 
         while (1) {
             printf("Please type your guess: ");
