@@ -30,7 +30,7 @@ int main() {
         printf("Would you like to play again? (1=yes, 2=no): ");
         scanf("%d", &choose);
         
-        if (choose != 1 && choose != 2) {
+        if ((choose != 1) && (choose != 2)) {
             printf("Invalid choice. Please enter 1 for yes or 2 for no.\n");
             continue;
         }
