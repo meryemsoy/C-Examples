@@ -10,5 +10,6 @@ int main(){
     printf("Product =  %d \n",num1 * num2);
     printf("Division =  %d \n",num1 / num2);
     printf("Mod =  %d \n",num1 % num2);
+    return 0;
 
 }
